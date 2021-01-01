@@ -39,7 +39,7 @@ class NumberTest extends TestCase
         ]
     ];
     
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
         $this->typographer = new Emuravjev\Mdash\Typograph();
