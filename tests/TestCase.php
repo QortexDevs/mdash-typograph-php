@@ -21,7 +21,7 @@ class TestCase extends PHPUnit\Framework\TestCase
     /**
      * @return void
      */
-    protected function setUp()
+    protected function setUp(): void
     {
         parent::setUp();
         $this->typographer = new Emuravjev\Mdash\Typograph();
