@@ -4,7 +4,7 @@ use Emuravjev\Mdash\Typograph;
 /**
  * Base class for all tests.
  */
-class TestCase extends \PHPUnit_Framework_TestCase
+class TestCase extends PHPUnit\Framework\TestCase
 {
     /**
      * Массив тестов вида ['text' => 'Text to test', 'result' => 'Expected result']
